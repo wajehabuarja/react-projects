@@ -1,0 +1,130 @@
+.main-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* Info */
+.info {
+  background-color: #1A1B21;
+  width: 317px;
+  height: 716px;
+}
+
+.info-img {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.info-name {
+  font-family: 'Inter';
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.info-major {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F3BF99;
+}
+
+.info-website {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+.info-div {
+  padding-left: 35px;
+}
+
+.info-button {
+  width: 247px;
+  height: 34px;
+  border: 1px solid #D1D5DB;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 9px 13px 9px 11px;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.info-button-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #374151;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding-left: 8px;
+}
+
+/* About */
+.head-para {
+  width: 242.71px;
+  height: 18px;
+  color: #F5F5F5;
+  font-family: 'Inter';
+  line-height: 150%;
+  padding-left: 35px;
+  font-size: 16px;
+}
+
+.para {
+  width: 247px;
+  height: 61px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+  padding-left: 35px;
+  padding-bottom: 9px;
+}
+
+/*  */
+.footer {
+  width: 317px;
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+.footer-icon-div {
+  width: 220px;
+  padding-left: 48.5px;
+  padding-top: 19.5px;
+
+display: flex;
+justify-content: space-between;
+}
+.footer-icon-btn{
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+
+
+.footer-icon {
+  color: #918E9B;
+  font-size: 30px;
+  margin-top: -2px;
+}

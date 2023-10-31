@@ -1,0 +1,140 @@
+/* Nav Bar */
+.nav--logo {
+  width: 100px;
+  margin: 7px 0px 7px 20px;
+}
+
+/* app */
+.page-content{
+  margin: 0px 235px;
+} 
+
+.cards-div{
+  display: flex;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.cover-img {
+  width: 545px;
+  height: 382px;
+  align-self: center;
+}
+
+.hero-content {
+  padding-top: 20px;
+}
+
+.left-content {
+  text-align: left;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/* Card */
+.card {
+  width: min-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  padding-right: 12px;
+}
+
+.card--img-div {
+  min-width: 176px;
+  position: relative;
+}
+
+.card--img {
+  min-width: 176px;
+  height: 235px;
+}
+
+.round-img{
+  border-radius: 10px;
+}
+
+.card--state-div {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: white;
+  width: 61px;
+  height: 20px;
+}
+
+.card--state--text {
+  font-size: 10.24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.red-star {
+  color: red;
+  font-size: 14px;
+}
+
+.first-row {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: -20px;
+}
+
+.secound-row{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: -12px;
+}
+
+.third-row{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.item {
+  padding-right: 4px;
+}
+
+.card--rate{
+ font-size: 12px;
+ font-weight: 400;
+}
+
+.card--numOfRate{
+  font-size: 12px;
+  font-weight: 400;
+  color: grey;
+}
+
+.card--dot{
+  border-radius: 10px;
+  color: grey;
+  margin-top: -2px;
+}
+
+.card--country{
+  font-size: 12px;
+  font-weight: 400;
+  color: grey;
+}
+
+.card--title{
+  font-size: 12px;
+}
+
+.card--price{ 
+  font-size: 12px;
+}
+
+.card--price--person{
+  font-size: 12px;
+  font-weight: 400;
+}
