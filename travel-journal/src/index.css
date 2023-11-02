@@ -1,0 +1,77 @@
+.navbar {
+  background-color: #F55A5A;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.padding-bottom-10 {
+  padding-bottom: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 470px;
+  height: 168px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.card-img {
+  width: 125px;
+  height: 168px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.card-title-logo {
+  color: #F55A5A;
+}
+
+.card-title-country {
+  color: #2B283A;
+  font-size: 10.24px;
+}
+
+.card-title-google {
+  text-decoration: underline;
+  color: #918E9B;
+  font-size: 10.24px;
+}
+
+.card-name {
+  color: #2B283A;
+  margin-top: -25px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.card-date {
+  color: #2B283A;
+  font-size: 10.24px;
+  font-weight: 700;
+}
+
+.card-desc {
+  color: #2B283A;
+  font-size: 10.24px;
+}
+
+.card-hr-width {
+  width: 470px;
+  margin-left: 20px;
+  color: grey;
+}
